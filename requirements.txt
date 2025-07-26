@@ -4,3 +4,4 @@
  arxiv==2.1.0
  duckduckgo-search==6.1.5
  ollama==0.2.1
+ beautifulsoup4==4.12.3
