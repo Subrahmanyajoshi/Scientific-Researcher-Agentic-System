@@ -18,12 +18,12 @@ The system is built on a modular, hierarchical agent architecture, which makes i
 
 ### Workflow Example
 When given a task like "Find papers on multi-agent systems and summarize the first one," the workflow is as follows:
-1. The **Orchestrator** receives the task.
-2. It first calls the **Researcher Agent** with the topic "multi-agent systems."
-3. The **Researcher Agent** returns a list of relevant papers.
-4. The **Orchestrator** extracts the title and URL of the first paper from the list.
+1. The **Researcher Agent** receives the task.
+2. It first calls the **Finder Agent** with the topic "multi-agent systems."
+3. The **Finder Agent** returns a list of relevant papers.
+4. The **Researcher Agent** extracts the title and URL of the first paper from the list.
 5. It then calls the **Summarizer Agent** with this information.
 6. The **Summarizer Agent** fetches the paper's content and returns a summary.
-7. Finally, the **Orchestrator** presents the summary as the final answer.
+7. Finally, the **Researcher Agent** presents the summary as the final answer.
 
 ---
